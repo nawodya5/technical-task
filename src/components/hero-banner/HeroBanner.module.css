@@ -1,0 +1,33 @@
+.heroText {
+    position: absolute;
+    top: 500px;
+    left: 40px;
+}
+
+.image {
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroText {
+        position: relative;
+        top: 0 !important;
+        left: 0;
+    }
+
+    .image {
+        height: 448px;
+    }
+}
+
+@media (max-width:375px) {
+    .image {
+        height: 218px;
+    }
+}

@@ -1,0 +1,126 @@
+.mainContaier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: '100%';
+    background-color: #6B3CC9;
+    padding: 40px;
+
+}
+
+.subContainers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mainLogo {
+    width: 420px;
+}
+
+.sideOne {
+    margin-right: 200px;
+    margin-left: 420px;
+}
+
+.sideTwo {
+    margin-right: 80px;
+}
+
+.heading {
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+}
+
+.subHeading {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding-top: 40px;
+}
+
+.line {
+    width: 630px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.footerEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footerEndText {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding-top: 10px;
+}
+
+@media (max-width:1390px) {
+
+    .sideOne {
+        margin-right: 100px;
+        margin-left: 220px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .subContainers {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .rightSide {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .sideOne {
+        margin-right: 160px;
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:375px) {
+    .subContainers {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .rightSide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .mainLogo {
+        width: 330px;
+    }
+
+    .sideOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line {
+        width: 330px;
+    }
+}

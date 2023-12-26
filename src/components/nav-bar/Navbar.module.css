@@ -1,0 +1,48 @@
+.nav {
+    background-color: #8100cd;
+    padding: 20px !important;
+}
+
+.navItem {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: white !important;
+}
+
+.mainLogo {
+    padding-left: 100px !important;
+}
+
+@media (max-width:478px) {
+    .nav {
+        padding: 5px !important;
+    }
+
+    .mainLogo {
+        padding-left: 5px !important;
+        padding-bottom: 10px !important;
+        height: 38px !important;
+    }
+
+    .menuIcon {
+        height: 26px;
+    }
+
+}
+
+@media (max-width:375px) {
+    .nav {
+        padding: 5px !important;
+    }
+
+    .mainLogo {
+        padding-left: 5px !important;
+        padding-bottom: 10px !important;
+        height: 38px !important;
+    }
+
+    .menuIcon {
+        height: 26px;
+    }
+
+}

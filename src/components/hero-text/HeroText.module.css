@@ -1,0 +1,19 @@
+.container {
+    width: 600px;
+    padding: 20px;
+    background: linear-gradient(to right, #4DCA79, #1CBDDD)
+}
+
+.text {
+    color: white;
+    font-size: 48;
+    font-weight: bold;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+        background: linear-gradient(to right, #4DCA79, #1CBDDD)
+    }
+}
